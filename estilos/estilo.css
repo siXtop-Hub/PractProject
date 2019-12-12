@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../Imagenes/oceano-al-anochecer-morado.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+}
+
+.logotipo{
+	text-align: center;
+}
+
+header, .main, footer{
+	
+	width: 60%;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+header nav{
+	background: #e9f4f4;
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #fff;
+}
+
+.main .articulos{
+	width: 100%;
+	background: #fff;
+	margin: auto;
+
+}
+
+.main .articulos article{
+	padding: 20px;
+	background: #fff;
+	text-align: center;
+}
+
+footer{
+	background: #e9f4f4;
+	clear: both;
+	padding: 20px 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
